@@ -12,7 +12,6 @@ module.exports = {
   "run": [{
     "method": "shell.run",
     "params": {
-      //"message": "git clone https://github.com/candywrap/audiocraft app"
       "message": [
         "git lfs install",
         "git clone https://huggingface.co/spaces/cocktailpeanut/InstantID app"
