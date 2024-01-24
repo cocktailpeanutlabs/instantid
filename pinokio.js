@@ -40,6 +40,13 @@ module.exports = {
           text: "Start",
           href: "start.js",
         }, {
+          icon: "fa-solid fa-power-off",
+          text: "Start LCM",
+          href: "start.js",
+          params: {
+            type: "LCM"
+          }
+        }, {
           icon: "fa-solid fa-plug",
           text: "Update",
           href: "update.js",

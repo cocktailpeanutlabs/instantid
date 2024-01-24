@@ -6,6 +6,9 @@ module.exports = {
       "path": "app",
       "venv": "env",
       "message": "python app.py",
+      "env": {
+        "MODE": "{{input.type}}"
+      },
       "on": [{ "event": "/http:\/\/[0-9.:]+/", "done": true }]
     }
   }, {

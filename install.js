@@ -14,7 +14,7 @@ module.exports = {
     "params": {
       "message": [
         "git lfs install",
-        "git clone https://huggingface.co/spaces/cocktailpeanut/InstantID app"
+        "git clone https://huggingface.co/spaces/cocktailpeanut/InstantID2 app"
       ]
     }
   }, {
