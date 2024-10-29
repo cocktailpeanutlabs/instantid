@@ -42,6 +42,9 @@ module.exports = {
           icon: "fa-solid fa-power-off",
           text: "Start",
           href: "start.js",
+          params: {
+            type: "Default"
+          }
         }, {
           icon: "fa-solid fa-power-off",
           text: "Start LCM",
