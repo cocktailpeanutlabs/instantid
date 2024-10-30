@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: 1,
+  version: "2.0",
   title: "InstantID",
   description: "state-of-the-art tuning-free method to achieve ID-Preserving generation with only single image, supporting various downstream tasks. https://instantid.github.io/",
   icon: "icon.webp",
@@ -39,10 +39,12 @@ module.exports = {
         }
       } else {
         return [{
-          default: true,
           icon: "fa-solid fa-power-off",
           text: "Start",
           href: "start.js",
+          params: {
+            type: "Default"
+          }
         }, {
           icon: "fa-solid fa-power-off",
           text: "Start LCM",
