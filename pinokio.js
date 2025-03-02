@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: "2.0",
+  version: "3.0",
   title: "InstantID",
   description: "state-of-the-art tuning-free method to achieve ID-Preserving generation with only single image, supporting various downstream tasks. https://instantid.github.io/",
   icon: "icon.webp",
@@ -64,6 +64,7 @@ module.exports = {
           icon: "fa-solid fa-broom",
           text: "Factory Reset",
           href: "reset.js",
+          confirm: "Are you sure you wish to reset the app?"
         }]
       }
     } else {
